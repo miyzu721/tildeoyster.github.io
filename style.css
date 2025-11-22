@@ -1,13 +1,13 @@
 /* All CSS goes here */
 body{
-    font-family: "Helvetica", sans-serif;
+    font-family: "Courier New", monospace;
     background-color: #ffeef6;
 }
 
 /* SIDENAV PROPERTIES */
 .sidenav {
     height: 100%;
-    width: 250px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -30,6 +30,7 @@ body{
 
   #name {
     font-size: 32px;
+    padding-bottom: 20px;
   }
 
 /* MAIN OVERVIEW */
@@ -39,4 +40,8 @@ body{
     font-size: 16px; /* Increased text to enable scrolling */
     padding: 10px 10px;
     padding-bottom: 150px;
+  }
+
+  .about-image {
+    padding-left: 20%;
   }

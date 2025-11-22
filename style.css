@@ -1,0 +1,33 @@
+/* All CSS goes here */
+body{
+    font-family: "Helvetica", sans-serif;
+}
+
+/* SIDENAV PROPERTIES */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+ .sidenav a {
+    padding: 6px 8px 6px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff3694;
+    display: block;
+  }
+
+/* MAIN OVERVIEW */
+  .main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+    margin-right: 3%;
+    font-size: 16px; /* Increased text to enable scrolling */
+    padding: 10px 10px;
+    padding-bottom: 150px;
+  }

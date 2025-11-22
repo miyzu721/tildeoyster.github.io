@@ -1,6 +1,7 @@
 /* All CSS goes here */
 body{
     font-family: "Helvetica", sans-serif;
+    background-color: #ffeef6;
 }
 
 /* SIDENAV PROPERTIES */
@@ -21,6 +22,14 @@ body{
     font-size: 18px;
     color: #ff3694;
     display: block;
+  }
+
+  .sidenav a:hover {
+    color: #ff74b5;
+  }
+
+  #name {
+    font-size: 32px;
   }
 
 /* MAIN OVERVIEW */

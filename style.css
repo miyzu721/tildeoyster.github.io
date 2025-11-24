@@ -15,18 +15,24 @@ body{
     overflow-x: hidden;
     padding-top: 30px;
 }
+  a {
+    color: #534c4f;
+  }
 
- .sidenav a, p {
+  .sidenav a, .sidenav p {
     padding: 6px 8px 6px 30px;
     text-decoration: none;
     font-weight: 100;
     font-size: 18px;
-    color: #534c4f;
     display: block;
   }
 
-  .sidenav a:hover {
+  a:hover {
     color: #ff74b5;
+  }
+
+  #insta {
+    text-decoration: underline;
   }
 
   #name {
@@ -59,7 +65,7 @@ body{
 
   .grid-item {
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    text-align: center;
+    text-align: left;
   }
 
   .Exit {

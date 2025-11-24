@@ -1,7 +1,7 @@
 /* All CSS goes here */
 body{
     font-family: "Courier New", monospace;
-    background-color: #ffeef6;
+    background-color: #ffdcef;
 }
 
 /* SIDENAV PROPERTIES */
@@ -16,7 +16,7 @@ body{
     padding-top: 30px;
 }
 
- .sidenav a {
+ .sidenav a, p {
     padding: 6px 8px 6px 30px;
     text-decoration: none;
     font-weight: 100;
@@ -40,16 +40,43 @@ body{
     margin-right: 3%;
     font-size: 16px; /* Increased text to enable scrolling */
     padding: 10px 10px;
-    padding-bottom: 150px;
-    padding-top: 40px;
     padding-left: 50px;
   }
 
   .home-image {
-    padding-left: 20%;
+    padding-top: 5%;
+    padding-left: 25%;
   }
 
-  .about-image {
+  /* Grid properties */
+  /* PHOTO  */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5%;
+    row-gap: 5%;
+  }
+
+  .grid-item {
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    text-align: center;
+  }
+
+  .Exit {
+    text-align: right;
+  }
+
+  .grid-item img { 
+    object-fit: cover;
+  }
+
+
+  #about {
     padding-top: 50px;
     padding-left: 50px;
   }
+
+
+
+
+  
